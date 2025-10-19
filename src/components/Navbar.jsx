@@ -23,10 +23,10 @@ const Navbar = ({theme, setTheme}) => {
             <img src={assets.close_icon} alt='' className='w-5 absolute right-4
             top-4 sm:hidden cursor-pointer z-50' onClick={()=> setSidebarOpen(false)}/>
             
-            <a href="#" className='sm:hover:border-b'>Home</a>
-            <a href="#services" className='sm:hover:border-b'>Services</a>
-            <a href="#our-work" className='sm:hover:border-b'>Our Work</a>
-            <a href="#contact-us" className='sm:hover:border-b'>Contact Us</a>
+            <a href="#" className='text-gray-700 dark:text-white hover:border-b hover:border-gray-300 dark:hover:border-white transition-all'>Home</a>
+            <a href="#services" className='text-gray-700 dark:text-white hover:border-b hover:border-gray-300 dark:hover:border-white transition-all'>Services</a>
+            <a href="#our-work" className='text-gray-700 dark:text-white hover:border-b hover:border-gray-300 dark:hover:border-white transition-all'>Our Work</a>
+            <a href="#contact-us" className='text-gray-700 dark:text-white hover:border-b hover:border-gray-300 dark:hover:border-white transition-all'>Contact Us</a>
         </div>
 
         <div className='flex items-center gap-4'>
